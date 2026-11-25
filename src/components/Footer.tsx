@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { brandConfig, navigationItems, servicesData, featuredProjects } from '../data/siteData'
-import { Github, MessageSquare, Mail, ArrowUpRight, Sparkles, MapPin, Clock } from 'lucide-react'
+import { Github, Linkedin, MessageSquare, Mail, ArrowUpRight, Sparkles, MapPin, Clock } from 'lucide-react'
 
 export const Footer: React.FC = () => {
   const [istTime, setIstTime] = useState('')
@@ -87,13 +87,14 @@ export const Footer: React.FC = () => {
               Services
             </h4>
             <ul className="space-y-2.5 text-sm">
-              {servicesData.slice(0, 5).map((s) => (
+              {servicesData.slice(0, 6).map((s) => (
                 <li key={s.id}>
                   <a
                     href="#services"
                     className="hover:text-brand-cyan transition-colors truncate block"
                   >
-                    {s.title.split(' ')[0]} {s.title.split(' ')[1]}
+                    {s.title}
+                    {/* {s.title.split(' ')[0]} {s.title.split(' ')[1]} */}
                   </a>
                 </li>
               ))}
@@ -146,6 +147,15 @@ export const Footer: React.FC = () => {
               >
                 <Github className="w-3.5 h-3.5" />
                 <span>GitHub: @The-Freelancers456</span>
+              </a>
+              <a
+                href={brandConfig.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-brand-cyan hover:text-white transition-colors"
+              >
+                <Linkedin className="w-3.5 h-3.5 text-brand-cyan" />
+                <span>LinkedIn: the-freelance456</span>
               </a>
             </div>
           </div>

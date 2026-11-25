@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { brandConfig, navigationItems } from '../data/siteData'
-import { MessageSquare, Menu, X, ArrowUpRight, Sparkles } from 'lucide-react'
+import { MessageSquare, Menu, X, ArrowUpRight, Sparkles, Linkedin } from 'lucide-react'
 import { useMagnetic } from '../hooks/useMagnetic'
 
 export const Navigation: React.FC = () => {
@@ -80,12 +80,24 @@ export const Navigation: React.FC = () => {
 
           {/* Header Action CTAs */}
           <div className="hidden sm:flex items-center gap-3">
+            {/* LinkedIn Quick Link */}
+            <a
+              href={brandConfig.linkedinUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-xl bg-navy-800/80 text-brand-cyan hover:text-white hover:bg-brand-cyan/20 border border-brand-cyan/20 hover:border-brand-cyan/50 transition-all duration-200 flex items-center justify-center shadow-sm"
+              aria-label="LinkedIn Profile"
+              title="LinkedIn: the-freelance456"
+            >
+              <Linkedin className="w-4 h-4" />
+            </a>
+
             {/* WhatsApp Quick Link */}
             <a
               href={brandConfig.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2.5 rounded-xl bg-navy-800/80 text-brand-cyan hover:text-white hover:bg-brand-cyan/20 border border-brand-cyan/20 hover:border-brand-cyan/50 transition-all duration-200 flex items-center justify-center shadow-sm"
+              className="p-2.5 rounded-xl bg-navy-800/80 text-brand-orange hover:text-white hover:bg-brand-orange/20 border border-brand-orange/20 hover:border-brand-orange/50 transition-all duration-200 flex items-center justify-center shadow-sm"
               aria-label="Chat on WhatsApp"
               title="Chat on WhatsApp: 9080234590"
             >
@@ -166,10 +178,21 @@ export const Navigation: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
-                className="w-full text-center py-3 rounded-xl bg-navy-800 border border-brand-cyan/40 text-brand-cyan font-medium flex items-center justify-center gap-2"
+                className="w-full text-center py-3 rounded-xl bg-navy-800 border border-brand-orange/40 text-brand-orange font-medium flex items-center justify-center gap-2"
               >
                 <MessageSquare className="w-4 h-4" />
                 <span>WhatsApp: 9080234590</span>
+              </a>
+
+              <a
+                href={brandConfig.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full text-center py-3 rounded-xl bg-navy-800 border border-brand-cyan/40 text-brand-cyan font-medium flex items-center justify-center gap-2"
+              >
+                <Linkedin className="w-4 h-4" />
+                <span>LinkedIn: the-freelance456</span>
               </a>
             </div>
           </div>

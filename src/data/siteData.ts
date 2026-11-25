@@ -10,6 +10,7 @@ export const brandConfig = {
   formattedPhone: '+91 90802 34590',
   whatsappUrl: 'https://wa.me/919080234590?text=Hi%20THE%20FREELANCE%2C%20I%20would%20like%20to%20discuss%20a%20project.',
   githubUrl: 'https://github.com/The-Freelancers456',
+  linkedinUrl: 'https://www.linkedin.com/in/the-freelance456/',
   workingHours: 'Mon – Sat: 9:00 AM – 9:00 PM IST',
   location: 'Tamil Nadu & Remote Global',
 }

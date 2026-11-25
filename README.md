@@ -93,6 +93,7 @@ npm run preview
 ## 📞 Direct Contact Channels
 
 - **WhatsApp**: [+91 90802 34590](https://wa.me/919080234590?text=Hi%20THE%20FREELANCE%2C%20I%20would%20like%20to%20discuss%20a%20project.)
+- **LinkedIn**: [linkedin.com/in/the-freelance456](https://www.linkedin.com/in/the-freelance456/)
 - **Email**: [thefreelancers456@gmail.com](mailto:thefreelancers456@gmail.com)
 - **GitHub**: [@The-Freelancers456](https://github.com/The-Freelancers456)
 

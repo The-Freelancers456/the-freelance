@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { brandConfig } from '../data/siteData'
-import { MessageSquare, Mail, Phone, Send, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react'
+import { MessageSquare, Mail, Phone, Send, Sparkles, CheckCircle2, ArrowRight, Linkedin } from 'lucide-react'
 import { useMagnetic } from '../hooks/useMagnetic'
 
 export const CallToAction: React.FC = () => {
@@ -92,6 +92,29 @@ export const CallToAction: React.FC = () => {
                     </span>
                     <span className="text-base sm:text-lg font-bold text-white group-hover:text-brand-orange transition-colors">
                       {brandConfig.email}
+                    </span>
+                  </div>
+                </div>
+                <ArrowRight className="w-5 h-5 text-slate-500 group-hover:text-white group-hover:translate-x-1 transition-all" />
+              </a>
+
+              {/* LinkedIn Profile Card */}
+              <a
+                href={brandConfig.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between p-5 rounded-2xl bg-gradient-to-r from-navy-850 to-navy-900 border border-brand-cyan/25 hover:border-brand-cyan/60 transition-all duration-300 hover:shadow-cyan-glow/20"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-brand-cyan/15 text-brand-cyan flex items-center justify-center group-hover:bg-brand-cyan group-hover:text-navy-950 transition-colors">
+                    <Linkedin className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <span className="text-xs font-mono text-slate-400 uppercase tracking-wider block">
+                      Official LinkedIn Profile
+                    </span>
+                    <span className="text-base sm:text-lg font-bold text-white group-hover:text-brand-cyan transition-colors">
+                      the-freelance456
                     </span>
                   </div>
                 </div>
