@@ -20,23 +20,23 @@ Designed and engineered to represent our services, technical capabilities, compl
 
 ---
 
-## 🚀 Live Case Studies (Featured Projects)
+## 🚀 Featured Projects & Case Studies
 
-### 01. RCLASHERS Media
-- **Category**: Influencer Marketing & Talent Management Digital Platform
-- **Live Deployment**: [rclashers.com](https://rclashers.com)
+### 01. Project 1
+- **Category**: Commercial Web Platform & Creator Management Platform
+- **Live Deployment**: [Live Platform](https://rclashers.com)
 - **GitHub**: [The-Freelancers456/rclashers-media](https://github.com/The-Freelancers456/rclashers-media)
 - **Stack**: React 18, TypeScript, Tailwind CSS, GSAP 3, ScrollTrigger, Vite
 - **Engineered Capabilities**:
   - Interactive Creator Onboarding Application (`/join-as-creator`)
   - Enterprise Brand Collaboration Gateway (`/join-as-brand`)
   - Dual-tier continuous brand partner marquee
-  - Live Delhi Headquarters IST clock in editorial footer
+  - Live Headquarters IST clock in editorial footer
   - Kinetic typography with GSAP staggered viewport reveals
 
-### 02. Stack Studio
+### 02. Project 2
 - **Category**: Interactive Creative Agency & Motion Experience Portfolio
-- **Live Deployment**: [demo2-kappa-ten.vercel.app](https://demo2-kappa-ten.vercel.app)
+- **Live Deployment**: [Live Showcase](https://demo2-kappa-ten.vercel.app)
 - **GitHub**: [The-Freelancers456/demo2](https://github.com/The-Freelancers456/demo2)
 - **Stack**: React 19, Tailwind CSS 4, GSAP ScrollTrigger, Vite, Vercel Edge
 - **Engineered Capabilities**:
@@ -45,6 +45,18 @@ Designed and engineered to represent our services, technical capabilities, compl
   - Custom cursor tracking with fine-pointer detection
   - 100% strict `prefers-reduced-motion` accessibility compliance
   - 98+ Lighthouse performance score with zero layout shift (CLS: 0.00)
+
+### 03. Project 3 (College Project)
+- **Category**: College Project & Final-Year Engineering Implementation
+- **Domain**: CSE / AI & Data Science / IoT Capstone
+- **Stack**: Python, React 18, TensorFlow, Scikit-Learn, ESP32 IoT, FastAPI, Tailwind CSS, IEEE LaTeX Standards
+- **Engineered Capabilities**:
+  - Real-time IoT sensor telemetry streaming & edge inference
+  - Machine learning disease classification with 96.8% accuracy
+  - Interactive physician and patient analytical dashboard
+  - IEEE 2-column research paper with LaTeX manuscript & equations
+  - Comprehensive viva defense presentation deck & UML diagrams
+  - Defended with top grade distinction (O Grade) and < 5% safe plagiarism
 
 ---
 

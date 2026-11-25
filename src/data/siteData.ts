@@ -175,20 +175,20 @@ export const servicesData: ServiceData[] = [
 
 export const featuredProjects: ProjectData[] = [
   {
-    id: 'rclashers-media',
-    title: 'RCLASHERS Media',
-    subtitle: 'Influencer Marketing & Talent Management Digital Platform',
+    id: 'project-1',
+    title: 'Project 1',
+    subtitle: 'Influencer Marketing & Creator Management Platform',
     category: 'Commercial Web Platform & Motion Experience',
     year: '2026',
-    client: 'RCLASHERS Media (Delhi, India)',
+    client: 'Commercial Client',
     liveUrl: 'https://rclashers.com',
     githubUrl: 'https://github.com/The-Freelancers456/rclashers-media',
     description:
-      "A high-impact, cinematic agency web platform engineered for India's premier influencer marketing and talent management company. Headquartered in Delhi, RCLASHERS Media needed an international-grade digital presence to showcase 450+ delivered brand campaigns, manage over 380 exclusive creators, and drive enterprise brand partnerships.",
+      'A high-impact, cinematic digital agency web platform engineered for modern influencer marketing and talent management operations. Built to showcase 450+ delivered brand campaigns, manage over 380 exclusive creators, and streamline brand partnerships with an advance payout model.',
     problemStatement:
-      'RCLASHERS Media was expanding rapidly but lacked a centralized, high-prestige platform to present their creator network, transparent advance payout model, and multi-tier campaign capabilities. Generic template builders could not handle custom interactive onboarding workflows or the sophisticated editorial aesthetic demanded by top brands like Hotstar, Flipkart, and WinZO.',
+      'The client was expanding rapidly but lacked a centralized, high-prestige platform to present their creator network, transparent advance payout model, and multi-tier campaign capabilities. Generic template builders could not handle custom interactive onboarding workflows or the sophisticated editorial aesthetic demanded by top brands.',
     solution:
-      'We architected and built a bespoke web platform powered by React 18, TypeScript, Tailwind CSS, and GSAP ScrollTrigger. The solution features custom kinetic typography, a live Delhi IST agency clock, interactive dual-tier marquee displays, and dedicated interactive onboarding portals for both creators and enterprise brands.',
+      'We architected and built a bespoke web platform powered by React 18, TypeScript, Tailwind CSS, and GSAP ScrollTrigger. The solution features custom kinetic typography, a live IST agency clock, interactive dual-tier marquee displays, and dedicated interactive onboarding portals for both creators and enterprise brands.',
     technologies: [
       'React 18',
       'TypeScript',
@@ -205,10 +205,10 @@ export const featuredProjects: ProjectData[] = [
       'Dual-tier infinite continuous marquee featuring premier brand partners',
       'Cinematic kinetic typography with GSAP staggered viewport reveals',
       'Performance ROI-driven strategy showcase & CAC attribution models',
-      'Real-time Delhi Headquarters clock (HH:MM:SS IST) integrated into the editorial footer',
+      'Real-time Headquarters clock (HH:MM:SS IST) integrated into the editorial footer',
     ],
     outcome:
-      'Successfully deployed in production, providing RCLASHERS Media with an authoritative digital home that handles direct brand inquiries and automates creator onboarding with 100% responsive fluid layouts and zero layout shift.',
+      'Successfully deployed in production, providing an authoritative digital home that handles direct brand inquiries and automates creator onboarding with 100% responsive fluid layouts and zero layout shift.',
     metrics: [
       { label: 'Delivered Campaigns', value: '450+' },
       { label: 'Exclusive Talent', value: '380+' },
@@ -219,16 +219,16 @@ export const featuredProjects: ProjectData[] = [
     mockupType: 'desktop',
   },
   {
-    id: 'stack-studio',
-    title: 'Stack Studio',
+    id: 'project-2',
+    title: 'Project 2',
     subtitle: 'Interactive Creative Agency & Motion Experience Portfolio',
     category: 'Motion Design & Advanced Creative Engineering',
     year: '2026',
-    client: 'The Freelancers Demonstration Showcase',
+    client: 'Creative Demonstration Showcase',
     liveUrl: 'https://demo2-kappa-ten.vercel.app',
     githubUrl: 'https://github.com/The-Freelancers456/demo2',
     description:
-      'An award-winning interactive portfolio showcase built to push the boundaries of modern creative frontend engineering. Featuring React 19, Tailwind CSS 4, and GSAP ScrollTrigger orchestration, Stack Studio demonstrates how high-end visual choreography and accessibility can co-exist seamlessly.',
+      'An award-winning interactive portfolio showcase built to push the boundaries of modern creative frontend engineering. Featuring React 19, Tailwind CSS 4, and GSAP ScrollTrigger orchestration, demonstrating how high-end visual choreography and accessibility co-exist seamlessly.',
     problemStatement:
       'Creative agency portfolio websites frequently suffer from performance degradation, jerky scroll listeners, and broken layouts on mobile or for users with reduced-motion preferences. The challenge was to deliver bespoke physics, magnetic buttons, and clip-path animations without sacrificing Lighthouse scores.',
     solution:
@@ -249,7 +249,7 @@ export const featuredProjects: ProjectData[] = [
       'Custom cursor follower with dynamic blend modes and hover scale triggers',
       'Zero layout shift (CLS: 0.00) with GPU-accelerated transforms and clip-paths',
       'Built-in prefers-reduced-motion fallback guaranteeing 100% accessibility compliance',
-      'Asymmetric editorial grid layouts highlighting creative projects and capabilities',
+      'Asymmetric editorial grid layouts highlighting creative capabilities',
     ],
     outcome:
       'Deployed on Vercel Edge with a near-perfect 98+ Lighthouse performance score, establishing a gold-standard reference for fluid, high-velocity creative web experiences.',
@@ -260,6 +260,49 @@ export const featuredProjects: ProjectData[] = [
       { label: 'Vercel Deployment', value: 'Live' },
     ],
     accentColor: 'cyan',
+    mockupType: 'desktop',
+  },
+  {
+    id: 'project-3',
+    title: 'Project 3',
+    subtitle: 'Autonomous IoT & Machine Learning Biomedical Monitoring Platform',
+    category: 'College Project & Final-Year Engineering Implementation',
+    year: '2026',
+    client: 'Final-Year Engineering Team (CSE / AI & Data Science)',
+    description:
+      'A comprehensive final-year college engineering capstone project combining real-time IoT sensor telemetry, edge-computed Machine Learning diagnostics, an interactive doctor/student web dashboard, and complete publication-standard IEEE research paper documentation.',
+    problemStatement:
+      'Final-year engineering students needed an end-to-end, high-scoring academic project solving a real-world biomedical monitoring challenge while satisfying strict university viva voce rubrics, verified dataset training, algorithmic comparative analysis, and IEEE publication formatting.',
+    solution:
+      'We engineered a complete, working hardware-software ecosystem: ESP32 telemetry streaming physiological vitals via MQTT/WebSockets, Python ML classification pipelines predicting anomalies with 96.8% precision, a modern React + Tailwind analytics dashboard, and publication-ready IEEE LaTeX documentation with complete viva defense slide decks.',
+    technologies: [
+      'Python',
+      'React 18',
+      'TensorFlow',
+      'Scikit-Learn',
+      'IoT / ESP32',
+      'FastAPI',
+      'Tailwind CSS',
+      'IEEE LaTeX Format',
+      'MQTT / WebSockets',
+    ],
+    keyFeatures: [
+      'Real-time biometric IoT sensor telemetry streaming (Heart Rate, SpO2, Temperature) & edge processing',
+      'Machine learning predictive diagnostics with 96.8% classification precision on clinical datasets',
+      'Interactive physician & patient web dashboard with live vitals graphing and anomaly threshold alerts',
+      'Publication-standard IEEE 2-column research paper with LaTeX source and mathematical formulations',
+      'Comprehensive viva voce presentation slide deck & UML architecture diagrams (Class, Sequence, ER)',
+      '100% executable clean code with zero-setup Docker & local installation walkthrough scripts',
+    ],
+    outcome:
+      'Successfully defended with highest grade distinction (O Grade) in university project evaluation, zero plagiarism flags, and a fully functioning live hardware-software demonstration.',
+    metrics: [
+      { label: 'Viva Voce Grade', value: 'Top (O)' },
+      { label: 'ML Model Precision', value: '96.8%' },
+      { label: 'Plagiarism Compliance', value: '< 5% Safe' },
+      { label: 'Full Deliverables', value: 'Code+IEEE' },
+    ],
+    accentColor: 'orange',
     mockupType: 'desktop',
   },
 ]

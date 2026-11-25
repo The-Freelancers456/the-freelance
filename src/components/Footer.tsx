@@ -109,12 +109,12 @@ export const Footer: React.FC = () => {
               {featuredProjects.map((p) => (
                 <li key={p.id}>
                   <a
-                    href={p.liveUrl}
-                    target="_blank"
+                    href={p.liveUrl || '#projects'}
+                    target={p.liveUrl ? '_blank' : undefined}
                     rel="noopener noreferrer"
                     className="flex items-center justify-between p-2 rounded-lg bg-navy-900 border border-white/5 hover:border-brand-orange/40 text-slate-200 transition-colors group"
                   >
-                    <span className="truncate">{p.title}</span>
+                    <span className="truncate">{p.title} — {p.subtitle.split(' ')[0]} {p.subtitle.split(' ')[1]}</span>
                     <ArrowUpRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-brand-orange transition-colors" />
                   </a>
                 </li>
